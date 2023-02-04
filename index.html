@@ -26,12 +26,13 @@
       img {
         border: 0;
       }
+      .lr-padding {
+        padding: 0 3rem;
+      }
 
-      @media only screen and (max-width: 377px) {
-        @media all and (min-width: 201px) {
-          .social-icons {
-            padding-right: 0px !important;
-          }
+      @media only screen and (max-width: 425px) {
+        .f-social-top {
+          padding-top: 40px !important;
         }
       }
       @media only screen and (max-width: 253px) {
@@ -180,11 +181,11 @@
 
         <!-- TERMS SECTION -->
         <tr>
-          <td>
+          <td class="lr-padding">
             <table
               class="terms"
               width="100%"
-              style="text-align: center; padding: 0 15px; font-size: 24px"
+              style="text-align: center; font-size: 24px"
             >
               <tr>
                 <td>
@@ -246,17 +247,21 @@
               style="background-color: #1e1e24; border-radius: 0 0 15px 15px"
             >
               <tr>
-                <td>
+                <td class="lr-padding">
                   <table width="100%">
                     <tr>
-                      <td align="center" style="padding-bottom: 40px">
+                      <td
+                        class="f-social-top"
+                        align="center"
+                        style="padding-bottom: 40px"
+                      >
                         <a
                           class="social-icons"
                           style="padding-right: 20px"
                           href="#"
                         >
                           <img
-                            height="40"
+                            height="30"
                             src="https://keithhorton.dev/email_projects/jj_photo/images/facebook-white.png"
                             alt=""
                           />
@@ -267,7 +272,7 @@
                           href="#"
                         >
                           <img
-                            height="40"
+                            height="30"
                             src="https://keithhorton.dev/email_projects/jj_photo/images/linkedin-white.png"
                             alt=""
                           />
@@ -278,14 +283,14 @@
                           href="#"
                         >
                           <img
-                            height="40"
+                            height="30"
                             src="https://keithhorton.dev/email_projects/jj_photo/images/twitter-white.png"
                             alt=""
                           />
                         </a>
                         <a class="social-icons" href="#">
                           <img
-                            height="40"
+                            height="30"
                             src="https://keithhorton.dev/email_projects/jj_photo/images/youtube-white.png"
                             alt=""
                           />
@@ -295,11 +300,7 @@
                     <tr>
                       <td
                         class="footer-font"
-                        style="
-                          line-height: 20px;
-                          text-align: center;
-                          padding: 0 15px;
-                        "
+                        style="line-height: 20px; text-align: center"
                       >
                         <p
                           style="
